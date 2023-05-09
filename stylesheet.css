@@ -170,15 +170,15 @@ div.container {
   }
 
 
-  @media screen and (max-width: 700) {
+ /*@media screen and (max-width: 700) {
 
     .food{
   
       width:400px;
-      height: auto;;
+      height: auto;
     }
   }
-
+*/
 
   .button {
     border: none;
@@ -540,6 +540,9 @@ img .food{
   text-align: center;
 }
 @media (max-width: 768px){
+  .extrainfo{
+    margin-top: 1300px;
+  }
   .extrainfo hr{
     display: none;
   }
@@ -550,6 +553,7 @@ img .food{
 @media (max-width: 768px){
 .appwork {
   font-size: 34px; 
+  margin-top:90px ;
 }
 hr .underline{
   display: none;
